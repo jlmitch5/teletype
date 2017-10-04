@@ -6,6 +6,18 @@
 
 The keyboard is attached to the front panel, for typing commands. The commands can be executed immediately in *LIVE mode* or assigned to one of the eight trigger inputs in *EDIT mode*. The knob and in jack can be used to set and replace values.
 
+A. Trigger inputs - Sending a pulse or rising edge of a gate to these inputs (1-8) causes their respective scripts to execute. The detection threshold is 0.0V?. Audio rate inputs are accepted [is there a caveat here?]
+
+B. In & Param - Values of the CV in (0-10V range) and param knob can be read into teletype. The knob and in jack can be used to set and replace values. Param knob can also be used to scroll presets once you have pressed scene recall.
+
+C. TR outputs 1-4 (labelled A-D on older units) - Outputs gate or trigger signals (0-5V)
+
+D. CV outputs 1-4 - Outputs cv values (0-10V).
+
+E. USB port - The USB port has several purposes. It is used to connect the included keyboard for typing commands and interacting w/ teletype. With a jump drive attached to the USB you can save scripts or upload saved scripts to the unit. Teletype additionally uses this port to receive firmware updates by connecting to a computer using a USB A-A cable. [grid?]
+
+F. Scene Recall - click this button to select presets without use of the keyboard.
+
 ## LIVE mode
 
 Teletype starts up in LIVE mode. You'll see a friendly **>** prompt, where commands are entered. The command:

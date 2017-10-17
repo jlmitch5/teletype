@@ -1,4 +1,4 @@
-#Overview
+# Overview
 
 ## Panel
 
@@ -16,7 +16,7 @@ E. USB port - The USB port has several purposes. It is used to connect the inclu
 
 F. Scene Recall - allows you to select scenes without a keyboard attached to teletype.
 
-##Interface Navigation
+## Interface Navigation
 
 ![Navigation](img/navigation.png)
 
@@ -50,7 +50,7 @@ We can change the behavior of a command with a *PRE* such as `DEL`:
 
 `TR.TOG 1` will be delayed by 500ms upon execution.
 
-###Some helpful bits:
+### Some helpful bits:
 
 * A display line appears above the command line in dim font. Here any entered commands will return their numerical value if they have one.
 
@@ -60,7 +60,7 @@ We can change the behavior of a command with a *PRE* such as `DEL`:
 
 * Navigate directly to live mode with `F12`.
 
-###LIVE mode icons
+### LIVE mode icons
 Five small icons are displayed in LIVE mode to give some important feedback about the state of Teletype. These icons will be brightly lit when the above is true, else will remain dim. They are, from left to right:
 * Trigger Mutes: 8 dots indicate the 8 trigger inputs. Bright dots indicate muted triggers
 * Slew: CV outputs are currently slewing to a new destination.
@@ -95,7 +95,7 @@ Scripts can have multiple lines:
 
 Now each time input 1 receives a trigger, CV 1 is set to a random volt between 0 and 4, in addition to output trigger 1 being toggled.
 
-###Metronome
+### Metronome
 
 The `M` script is driven by an internal metronome, so no external trigger is required. By default the metronome interval is 1000ms. You can change this readily (for example, in LIVE mode):
 
@@ -107,11 +107,11 @@ The metronome interval is now 500ms. You can disable/enable the metronome entire
 
 Now the metronome is off, and the `M` script will not be executed. Set `M.ACT` to 1 to re-enable.
 
-###Init Script
+### Init Script
 
 The *INIT* script (represented as `I`) is executed when a preset is recalled. This is a good place to set initial values of variables if needed, like metro time `M` or time enable `TIME.ACT` for example.
 
-##Patterns
+## Patterns
 
 Patterns facilitate musical data manipulation-- lists of numbers that can be used as sequences, chord sets, rhythms, or whatever you choose. Pattern memory consists of four banks of 64 steps. Functions are provided for a variety of pattern creation, transformation, and playback. The most basic method of creating a pattern is by directly adding numbers to the sequence. In LIVE mode try:
 
@@ -188,7 +188,7 @@ To facilitate performance without the need for the keyboard, scenes can be recal
 * Use the `PARAM` knob to highlight your desired preset.
 * Hold the `SCENE RECALL` button for 1 second to load the selected scene.
 
-##Teletype Syntax
+## Teletype Syntax
 
 * SCRIPT -- multiple *commands*
 * COMMAND -- a series (one line) of *words*

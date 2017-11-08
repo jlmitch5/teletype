@@ -4,7 +4,7 @@
 
 ![Panel Overlay](img/panel-overlay2.png)
 
-A. Trigger inputs 1-8 - Sending a pulse or rising edge of a gate to these inputs causes their respective scripts to execute. The detection threshold is 0.0V?. Both audio rate and control signals are accepted.
+A. Trigger inputs 1-8 - Sending a pulse or rising edge of a gate to these inputs causes their respective scripts to execute. The detection threshold is 0.?V. Both audio rate and control signals are accepted.
 
 B. In & Param - Values of the CV input (0-10V range) and param knob can be read into teletype. The knob and in jack can be used to set and replace values within the teletype environment. The param knob can also be used to scroll presets once you have pressed scene recall or directly adjust values in the pattern mode while holding the appropriate modifier keys on the keyboard.
 

@@ -70,13 +70,15 @@ Five small icons are displayed in LIVE mode to give some important feedback abou
 
 ## EDIT mode
 
-*SCRIPTS*, a group of up to 6 commands, can be assigned to each of the 8 trigger inputs. This is when things get musically interesting. To edit a script, we shift into EDIT mode. To enter EDIT mode from LIVE mode hit **TAB** (recall: **TAB** rotates through modes in the following order: EDIT, LIVE, PATTERN)
+*SCRIPTS*, a group of up to 6 commands, can be assigned to each of the 8 trigger inputs. This is when things get musically interesting. To edit a script, we shift into EDIT mode. To enter EDIT mode from LIVE mode hit `TAB` (recall: `TAB` rotates through modes in the following order: EDIT, LIVE, PATTERN)
 
 Where in edit mode a **>** prompt was in the bottom left corner of the screen, in EDIT mode you will see a character indicating which script you are editing:
 
 * `1`-`8` indicates the script associated with corresponding trigger
 * `M` is for the internal metronome
 * `I` is the init script, which is executed upon scene recall
+
+You can rotate through these 10 scripts using the bracket keys `[`and`]`.After typing a command into EDIT mode you must press `Return`in order to store it into the highlighted line in your Script. The up/down arrows allow you to select different lines to edit.
 
 Script 1 will be executed when trigger input 1 (top left jack on the panel) receives a low-to-high voltage transition (trigger, or front edge of a gate). Consider the following as script 1:
 
